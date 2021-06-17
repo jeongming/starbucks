@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap');
+
+
+@font-face {
+    font-family: 'NanumBarunGothic';
+    font-weight: 400;
+    src: url(NanumBarunGothicSubset.eot);
+    src: url(NanumBarunGothicSubset.eot?#iefix) format('embedded-opentype'),
+         url(NanumBarunGothicSubset.woff2) format('woff2'),
+         url(NanumBarunGothicSubset.woff) format('woff'),
+         url(NanumBarunGothicSubset.ttf) format('truetype');
+   }
+   @font-face {
+    font-family: 'NanumBarunGothic';
+    font-weight: 700;
+    src: url(NanumBarunGothicBoldSubset.eot);
+    src: url(NanumBarunGothicBoldSubset.eot?#iefix) format('embedded-opentype'),
+         url(NanumBarunGothicBoldSubset.woff2) format('woff2'),
+         url(NanumBarunGothicBoldSubset.woff) format('woff'),
+         url(NanumBarunGothicBoldSubset.ttf) format('truetype');
+   }
+   @font-face {
+    font-family: 'NanumBarunGothic';
+    font-weight: 300;
+    src: url(NanumBarunGothicLightSubset.eot);
+    src: url(NanumBarunGothicLightSubset.eot?#iefix) format('embedded-opentype'),
+         url(NanumBarunGothicLightSubset.woff2) format('woff2'),
+         url(NanumBarunGothicLightSubset.woff) format('woff'),
+         url(NanumBarunGothicLightSubset.ttf) format('truetype');
+   }
+   @font-face {
+    font-family: 'NanumBarunGothic';
+    font-weight: 200;
+    src: url(NanumBarunGothicUltraLightSubset.eot);
+    src: url(NanumBarunGothicUltraLightSubset.eot?#iefix) format('embedded-opentype'),
+         url(NanumBarunGothicUltraLightSubset.woff2) format('woff2'),
+         url(NanumBarunGothicUltraLightSubset.woff) format('woff'),
+         url(NanumBarunGothicUltraLightSubset.ttf) format('truetype');
+   }
+
+body { 
+    font-family: 'NanumBarunGothic', sans-serif;
+    -webkit-font-smoothing: antialiased; 
+}
+
+a {
+    text-decoration: none;
+}
+
+button { cursor: pointer; }
+
+div { 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+
+h1 { font-family: 'NanumBarunGothic', sans-serif; font-size: 64px; line-height: 1.2; font-weight: 700; }
+
+h2 { font-family: 'NanumBarunGothic', sans-serif; font-size: 50px; line-height: 1.2; font-weight: 700; }
+
+h3 { font-family: 'NanumBarunGothic', sans-serif; font-size: 26px; line-height: 1.2; font-weight: 400; }
+
+h4 { font-family: 'NanumBarunGothic', sans-serif; font-size: 19.2px; line-height: 1.2; font-weight: 400; }
+
+p { font-family: 'NanumBarunGothic', sans-serif; font-size: 16px; line-height: 1.2; font-weight: 400; }
+
